@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.status(200).send('Deploying app using the command line only')
+  res.status(200).send('Trying to deploy Automatically')
 })
 
 
